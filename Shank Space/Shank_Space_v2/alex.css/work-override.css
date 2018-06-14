@@ -1,0 +1,45 @@
+.main-column-title, .sidebar-column-title{
+    text-align: center;
+}/* this also appears identically in javascript-override.css */
+
+.assignment{
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.assignment:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.assignment-container {
+    padding: 2px 16px;
+}
+
+.assignment-header{
+
+}
+
+.assignment-info{
+    font-style: italic;
+}
+
+/* override bootstrap so badges don't bunch up */
+.pull-right{
+    margin-left: 1em;
+}
+
+/*
+ * This was so hard to center...
+ */
+#login-logout-wrapper{
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+
+

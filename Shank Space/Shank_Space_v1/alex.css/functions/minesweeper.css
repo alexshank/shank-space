@@ -1,0 +1,60 @@
+#board{
+    height: 250px;
+    padding: 0;
+    width:250px;
+    margin: auto;
+}
+
+#below-board{
+    margin: auto;
+    width: 250px;
+}
+
+.minesweeper-cell{
+    height: 25px;
+    width: 10%;
+    float: left;
+    border: 1px solid steelblue;
+    text-align: center;
+    vert-align: middle;
+    line-height: 25px;
+}
+
+#timer, #remaining-bombs{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.below-board-label{
+    width: 50%;
+    float: left;
+}
+
+.bomb-cell{
+    background-color: red;
+}
+
+.flag-cell{
+    background-color: chartreuse;
+}
+
+.near0{
+    background-color: lightskyblue;
+}
+
+.near1{
+    background-color: lightgreen;
+}
+
+.near2{
+    background-color: #ff8dfb;
+}
+
+.near3{
+    background-color: #11cd93;
+}
+
+.near4{
+    background-color: #f08080;
+}

@@ -1,0 +1,25 @@
+pre{
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+    background-color: #a5a2a2;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 3ex;
+    max-height: 75ex;  /* code area will display 25 lines of code */
+}
+h1.program-title {
+    padding:0;
+    margin: 0;
+}
+h4{
+    font-style: italic;
+}
+
+.table{
+    border-color: #f7f7f7;
+}
+
+thead{
+    background-color: #01a252;
+}

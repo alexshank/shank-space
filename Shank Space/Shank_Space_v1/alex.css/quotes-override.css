@@ -1,0 +1,21 @@
+blockquote p:before{
+    content: open-quote;
+    color: #FF3B3F;
+}
+
+blockquote p:after{
+    content: close-quote;
+    color: #FF3B3F;
+}
+
+blockquote p{
+    /*color: #b5e4f4;*/
+}
+
+blockquote footer{
+    /*color: #e8bbd0;*/
+}
+
+#quotes-column > blockquote {
+    border-left-COLOR: #FF3B3F;
+}

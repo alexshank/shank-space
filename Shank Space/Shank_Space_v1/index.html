@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- metadata and tab name for all site pages -->
+    <title>Shank Space</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to JQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <!-- Link to the BOOTSTRAP JavaScript library -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!--Link to the BootStrap CSS File-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Link to my site-wide override CSS -->
+    <link rel="stylesheet" type="text/css" href="alex.css/override.css">
+
+    <!-- Link to this page's specific CSS override and JS file -->
+    <link rel="stylesheet" type="text/css" href="alex.css/index-override.css">
+    <script src="alex.js/index.js"></script>
+
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+            <!-- Logo -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavBar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">SHANK SPACE</a>
+            </div>
+
+            <!-- Menu Items -->
+            <div class="collapse navbar-collapse" id="mainNavBar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="alex.html/pages/quotes.html">Quotes</a></li>
+                    <li><a href="alex.html/pages/code.html">Code</a></li>
+                    <li><a href="alex.html/pages/JavaScript.html">JavaScript</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <!-- End of navigation -->
+
+    <!-- Content -->
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+
+                <!-- Page Title -->
+                <div class="jumbotron">
+                    <h1>
+                        Shank Space
+                        <br>
+                        <small>A personal website</small>
+                    </h1>
+                </div>
+
+                <!-- Carousel (Below page title) -->
+                <div id="mainCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                    <!--Carousel buttons-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mainCarousel" data-slide-to="1"></li>
+                        <li data-target="#mainCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <!--Carousel Slides-->
+                        <div class="item active automize">
+                            <img class="img-responsive img-rounded" src="http://www.mobilewallpapers.us/wp-content/uploads/2015/06/Cleveland.jpg">
+                            <div class="carousel-caption">
+                                <h2>Cleveland</h2>
+                            </div>
+                        </div>
+
+                        <div class="item automize" >
+                            <img src="http://breaking911.com/wp-content/uploads/2015/10/o-OHIO-STATE-UNIVERSITY-CAMPUS-facebook.jpg" >
+                            <div class="carousel-caption">
+                                <h2>Ohio State</h2>
+                            </div>
+                        </div>
+
+                        <div class="item automize">
+                            <img src="http://randomwallpapers.net/server-room-1920x1080-wallpaper90828.jpg">
+                            <div class="carousel-caption">
+                                <h2>Electrical & Computer Engineering</h2>
+                            </div>
+                        </div><!-- End of slides -->
+                    </div>
+
+                    <!-- Set the actions to take when the arrows are clicked -->
+                    <a class="left carousel-control" href="#mainCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"> </span>
+                    </a>
+                    <a class="right carousel-control" href="#mainCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+
+                </div><!-- End of carousel -->
+
+                <!-- Display my resume file (word document converted to HTML) -->
+                <div id="resume">
+
+                </div>
+
+            </div><!-- End of main column -->
+        </div>
+        <div class="row">
+
+        </div><!-- End of rows -->
+
+    </div><!-- End of fluid-container -->
+
+</body>
+</html>

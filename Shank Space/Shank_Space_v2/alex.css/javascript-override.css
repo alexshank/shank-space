@@ -1,0 +1,12 @@
+.main-column-title, .sidebar-column-title{
+    text-align: center;
+}
+
+#sidebar{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+p{
+    text-align: center;
+}
