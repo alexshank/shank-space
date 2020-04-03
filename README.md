@@ -1,2 +1,2 @@
-# Shank Space
-My personal website for displaying projects and telling people more about myself.
+# chrome-bookmarks
+Google Chrome extension that will display your bookmarks on the "New Tab" page.
